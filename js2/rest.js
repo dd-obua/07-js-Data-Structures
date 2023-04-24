@@ -45,3 +45,10 @@ console.log('Garlic bread:', garlicBread);
 console.log('Others:', otherFood);
 
 console.log();
+
+// Assign object properties using rest pattern
+const { sat: saturday, ...weekdays } = resturant.openingHours;
+console.log('Saturday:', saturday);
+console.log('Weekdays:', weekdays);
+
+console.log();
