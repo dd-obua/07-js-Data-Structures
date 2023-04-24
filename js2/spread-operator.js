@@ -47,7 +47,16 @@ console.log('New menu:', newMenu);
 
 console.log();
 
-// Create a shallow copy of an array
+// Create a shallow copy of an array using spread operator
 const mainMenuCopy = [...restaurant.mainMenu];
+console.log('Starter menu:', restaurant.starterMenu);
+console.log('Main menu:', restaurant.mainMenu);
 console.log('Copy of main menu:', mainMenuCopy);
-z
+
+console.log();
+
+// Join arrays using spread operator
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log('Combined menu:', menu);
+
+console.log();
