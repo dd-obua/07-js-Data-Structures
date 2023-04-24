@@ -24,6 +24,11 @@ const resturant = {
   order: function (starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
+
+  orderPizza: function (mainIngredient, ...otherIngredients) {
+    console.log('Main ingredient:', mainIngredient);
+    console.log('Other ingredients:', otherIngredients);
+  },
 };
 
 // Assign object properties using rest pattern
@@ -52,4 +57,11 @@ console.log();
 // Given
 const vals = [10, 12, 14, 16, 18, 20];
 console.log(add(...vals));
+console.log();
+
+//
+resturant.orderPizza('Floor', 'Sugar', 'Oil');
+console.log();
+resturant.orderPizza('Mushrooms');
+
 console.log();
