@@ -28,6 +28,8 @@ const restaurant = {
 };
 
 // Destructure resturant
+console.log();
+
 const { name, openingHours, categories } = restaurant;
 console.log('Name:', name);
 console.log('Opening hours:', openingHours);
@@ -44,5 +46,12 @@ const {
 console.log('Name:', name);
 console.log('Opening hours:', openingHours);
 console.log('Categories:', tags);
+
+console.log();
+
+// Set default values using destructuring
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log('Menu:', menu);
+console.log('Strater menu:', starters);
 
 console.log();
