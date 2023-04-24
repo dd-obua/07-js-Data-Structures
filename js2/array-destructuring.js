@@ -57,3 +57,20 @@ console.log('Main category:', main);
 console.log('Secondary category:', secondary);
 
 console.log();
+
+// Swap main and secondary categories
+// Method 1
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log('Main:', main);
+console.log('Secondary:', secondary);
+
+console.log();
+
+// Method 2
+[main, secondary] = [secondary, main];
+console.log('Main:', main);
+console.log('Secondary:', secondary);
+
+console.log();
