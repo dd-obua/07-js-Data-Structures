@@ -12,3 +12,7 @@ console.log();
 let newArr = [2, 3, ...arr];
 console.log('New array:', newArr);
 console.log();
+
+// Pass individual array elements into a function
+console.log(...newArr);
+console.log();
