@@ -95,3 +95,11 @@ console.log('h:', h);
 console.log('i:', i);
 
 console.log();
+
+const [p, , [r, s, t]] = nestedArr;
+console.log('p:', p);
+console.log('r:', r);
+console.log('s:', s);
+console.log('t:', t);
+
+console.log();
