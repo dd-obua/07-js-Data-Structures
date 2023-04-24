@@ -28,10 +28,21 @@ const restaurant = {
 };
 
 // Destructure resturant
-
 const { name, openingHours, categories } = restaurant;
 console.log('Name:', name);
 console.log('Opening hours:', openingHours);
 console.log('Categories:', categories);
+
+console.log();
+
+const {
+  name: resturantName,
+  openingHours: hours,
+  categories: tags,
+} = restaurant;
+
+console.log('Name:', name);
+console.log('Opening hours:', openingHours);
+console.log('Categories:', tags);
 
 console.log();
