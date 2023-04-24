@@ -60,3 +60,13 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log('Combined menu:', menu);
 
 console.log();
+
+// Unpacking iterables using the spread operator
+const str = 'Denis';
+const letters = [...str];
+console.log('String:', str);
+console.log('StrArr:', letters);
+console.log('Individual letters:', letters);
+console.log(...letters);
+
+console.log();
