@@ -48,3 +48,8 @@ console.log(add(1, 2, 3, 4));
 console.log(add(1, 2, 3, 4, 5));
 
 console.log();
+
+// Given
+const vals = [10, 12, 14, 16, 18, 20];
+console.log(add(...vals));
+console.log();
