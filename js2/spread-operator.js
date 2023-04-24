@@ -18,7 +18,7 @@ console.log(...newArr);
 console.log();
 
 // Given
-const restaurant = {
+const resturant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
@@ -48,21 +48,21 @@ const restaurant = {
 };
 
 // Create menu with extra elements
-const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+const newMenu = [...resturant.mainMenu, 'Gnocci'];
 console.log('New menu:', newMenu);
 
 console.log();
 
 // Create a shallow copy of an array using spread operator
-const mainMenuCopy = [...restaurant.mainMenu];
-console.log('Starter menu:', restaurant.starterMenu);
-console.log('Main menu:', restaurant.mainMenu);
+const mainMenuCopy = [...resturant.mainMenu];
+console.log('Starter menu:', resturant.starterMenu);
+console.log('Main menu:', resturant.mainMenu);
 console.log('Copy of main menu:', mainMenuCopy);
 
 console.log();
 
 // Join arrays using spread operator
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+const menu = [...resturant.starterMenu, ...resturant.mainMenu];
 console.log('Combined menu:', menu);
 
 console.log();
@@ -85,12 +85,28 @@ const ingredients = [
 ];
 
 console.log('Ingredients:', ingredients);
-restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
-restaurant.orderPasta(...ingredients);
+resturant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
+resturant.orderPasta(...ingredients);
 console.log();
 
 // Create an object from an existing one using the spread operator
-const newResturant = { foundedIn: 1988, ...restaurant, founder: 'Guissepe' };
+const newResturant = { foundedIn: 1988, ...resturant, founder: 'Guissepe' };
 console.log('New Resturant:', newResturant);
+
+console.log();
+
+// Copy an object
+const resturantCopy = { ...resturant };
+console.log('Resturant:', resturant);
+
+console.log();
+
+console.log('Copy of restrurant:', resturantCopy);
+
+console.log();
+
+resturantCopy.name = 'Ristorante Roma';
+console.log('Original:', resturant.name);
+console.log('Copy:', resturantCopy.name);
 
 console.log();
