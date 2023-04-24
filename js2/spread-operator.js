@@ -39,6 +39,12 @@ const restaurant = {
       close: 24,
     },
   },
+
+  orderPasta: function (ingredient1, ingredient2, ingredient3) {
+    console.log(
+      `Here is your delicious pasta with ${ingredient1}, ${ingredient2} and ${ingredient3}.`
+    );
+  },
 };
 
 // Create menu with extra elements
