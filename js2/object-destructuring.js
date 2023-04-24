@@ -26,7 +26,12 @@ const restaurant = {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
 
-  orderDelivery: function ({ starterIndex, mainIndex, time, address }) {
+  orderDelivery: function ({
+    starterIndex = 0,
+    mainIndex = 0,
+    time = '20:00',
+    address,
+  }) {
     console.log(
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}.`
     );
@@ -90,9 +95,16 @@ console.log();
 // Destructure an object argument
 restaurant.orderDelivery({
   time: '22:30',
-  address: 'Plot 32, Obua Avenue',
+  address: 'Plot 32, Obote Avenue',
   mainIndex: 2,
   starterIndex: 2,
+});
+
+console.log();
+
+restaurant.orderDelivery({
+  address: 'Plot 1, Oyite Ojok Lane',
+  starterIndex: 1,
 });
 
 console.log();
