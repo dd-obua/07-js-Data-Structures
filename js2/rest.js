@@ -1,5 +1,5 @@
 // Given
-const restaurant = {
+const resturant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
@@ -33,5 +33,15 @@ const [a, b, ...others] = [1, 2, 3, 4, 5];
 console.log('a:', a);
 console.log('b:', b);
 console.log('Others:', others);
+
+console.log();
+
+const [focaccia, , garlicBread, ...otherFood] = [
+  ...resturant.starterMenu,
+  ...resturant.mainMenu,
+];
+console.log('Focaccia:', focaccia);
+console.log('Garlic bread:', garlicBread);
+console.log('Others:', otherFood);
 
 console.log();
