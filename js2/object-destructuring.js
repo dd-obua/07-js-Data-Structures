@@ -86,3 +86,13 @@ console.log('Friday');
 console.log('Opening time:', o);
 console.log('Closing time:', c);
 console.log();
+
+// Destructure an object argument
+restaurant.orderDelivery({
+  time: '22:30',
+  address: 'Plot 32, Obua Avenue',
+  mainIndex: 2,
+  starterIndex: 2,
+});
+
+console.log();
