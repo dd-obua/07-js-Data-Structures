@@ -85,3 +85,13 @@ console.log('Starter course:', starterCourse);
 console.log('Main course:', mainCourse);
 
 console.log();
+
+// Destructure nested arrays
+const nestedArr = [1, 2, [3, 4, 5]];
+
+const [g, h, i] = nestedArr;
+console.log('g:', g);
+console.log('h:', h);
+console.log('i:', i);
+
+console.log();
