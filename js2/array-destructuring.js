@@ -79,4 +79,9 @@ console.log('Secondary:', secondary);
 
 console.log();
 
-// A function returns an array and we can destructure the values into different variables
+// Desttructure function return values on invokation
+const [starterCourse, mainCourse] = restaurant.order(2, 0);
+console.log('Starter course:', starterCourse);
+console.log('Main course:', mainCourse);
+
+console.log();
