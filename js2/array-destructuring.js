@@ -105,7 +105,7 @@ console.log('t:', t);
 console.log();
 
 // Set default values using destructuring
-const [j=1, k=1, l=1] = [5, 6];
+const [j = 1, k = 1, l = 1] = [5, 6];
 console.log('j:', j);
 console.log('k:', k);
 console.log('l:', l);
