@@ -8,6 +8,11 @@ let badNewArr = [1, 2, 3, arr[1], arr[1], arr[2]];
 console.log('Bad new array:', badNewArr);
 console.log();
 
+// Method 2: Using the spread operator
+let newArr = [2, 3, ...arr];
+console.log('New array:', newArr);
+console.log();
+
 // Given
 const restaurant = {
   name: 'Classico Italiano',
