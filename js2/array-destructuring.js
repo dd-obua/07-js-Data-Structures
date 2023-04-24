@@ -44,6 +44,10 @@ const restaurant = {
       close: 24,
     },
   },
+
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
 };
 
 const [firstCat, secondCat] = restaurant.categories;
@@ -74,3 +78,5 @@ console.log('Main:', main);
 console.log('Secondary:', secondary);
 
 console.log();
+
+// A function returns an array and we can destructure the values into different variables
