@@ -55,3 +55,28 @@ console.log('Menu:', menu);
 console.log('Strater menu:', starters);
 
 console.log();
+
+// Mutate variables
+let a = 10,
+  b = 20;
+console.log('a:', a);
+console.log('b:', b);
+
+console.log();
+
+const obj = { a: 15, b: 25, c: 35 };
+({ a, b } = obj);
+
+console.log('a:', a);
+console.log('b:', b);
+
+console.log();
+
+// Destructure nested objects
+const {
+  fri: { open: o, close: c },
+} = openingHours;
+console.log('Friday');
+console.log('Opening time:', o);
+console.log('Closing time:', c);
+console.log();
