@@ -76,3 +76,15 @@ console.log('Individual letters:', letters);
 console.log(...letters);
 
 console.log();
+
+// Use spread operator to pass arguments to a function
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1:"),
+  prompt('Ingredient 2:'),
+  prompt('Ingredient 3:'),
+];
+
+console.log('Ingredients:', ingredients);
+restaurant.orderPasta(ingredients[0], ingredients[1], ingredients[2]);
+restaurant.orderPasta(...ingredients);
+console.log();
