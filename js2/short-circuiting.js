@@ -47,7 +47,24 @@ console.log('Guests 1:', guests1);
 
 console.log();
 
+// Same as
 const guests2 = resturant.numGuests || 15;
 console.log('Guests 2:', guests2);
 
 console.log();
+
+// Short-circuit using logical and operator
+console.log(0 && 'Dan');
+console.log('Yes' && 'Dan');
+console.log('Hello' && 23 && null && 'Dan');
+
+console.log();
+
+if (resturant.orderPizza) {
+  resturant.orderPizza('mushrooms', 'spinach');
+}
+
+console.log();
+
+// Same as
+resturant.orderPizza && resturant.orderPizza('ovacado', 'guava', 'bananas');
