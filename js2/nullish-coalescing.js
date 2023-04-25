@@ -1,3 +1,5 @@
+'use strict';
+
 // Given
 const resturant = {
   name: 'Classico Italiano',
@@ -37,9 +39,9 @@ resturant.numGuests = 0;
 
 const guests = resturant.numGuests || 10;
 console.log('Number of guests:', guests); // yeilds incorrect result because 0 is a falsy value
-console.log(); 
+console.log();
 
 // Nullish values: null and undefined
-const guestCorrect = resturant.numGuests ?? 10; 
+const guestCorrect = resturant.numGuests ?? 10;
 console.log('Correct number:', guestCorrect); // correct the falsy behavior of 0
 console.log();
