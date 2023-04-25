@@ -1,3 +1,5 @@
+'use strict';
+
 // Given
 const resturant = {
   name: 'Classico Italiano',
@@ -38,6 +40,11 @@ const resturant2 = {
 // Method 1: Use || operator
 resturant1.numGuests = resturant1.numGuests || 10;
 resturant2.numGuests = resturant2.numGuests || 10;
+
+console.log('Resturant 1:', resturant1);
+console.log('Resturant 2:', resturant2);
+
+console.log();
 
 // Method 2: Use ||= (i.e. the or-assignemt operator)
 resturant1.numGuests ||= 10;
