@@ -1,3 +1,5 @@
+'use strict';
+
 // Unpacking array vaulues into seperate variables
 
 // Unpack arr
