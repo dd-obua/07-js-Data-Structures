@@ -22,6 +22,8 @@ const resturant = {
   },
 };
 
+console.log();
+
 const resturant1 = {
   name: 'Capri',
   numGuests: 20,
@@ -31,3 +33,13 @@ const resturant2 = {
   name: 'Lapiazza',
   owner: 'Giovanni Rossi',
 };
+
+// Set default number of guests
+// Method 1: Using || operator
+resturant1.numGuests = resturant1.numGuests || 10;
+resturant2.numGuests = resturant1.numGuests || 10;
+
+console.log('Resturant 1:', resturant1);
+console.log('Resturant 2:', resturant2);
+
+console.log();
