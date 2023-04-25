@@ -1,3 +1,5 @@
+'use strict';
+
 // Given
 const resturant = {
   name: 'Classico Italiano',
