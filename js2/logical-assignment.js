@@ -28,7 +28,7 @@ console.log();
 
 const resturant1 = {
   name: 'Capri',
-  numGuests: 20,
+  numGuests: 0,
 };
 
 const resturant2 = {
@@ -54,3 +54,5 @@ console.log('Resturant 1:', resturant1);
 console.log('Resturant 2:', resturant2);
 
 console.log();
+
+//
