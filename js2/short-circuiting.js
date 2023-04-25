@@ -1,3 +1,5 @@
+'use strict';
+
 // Short-circuit using the logical or operator
 console.log();
 console.log(3 || 'Dan');
