@@ -1,3 +1,5 @@
+'use strict';
+
 // Destructure and object
 // Given
 const restaurant = {
