@@ -1,3 +1,5 @@
+'use strict';
+
 // Create a new array from an existiing one
 let arr = [4, 5, 6];
 console.log('Array:', arr);
