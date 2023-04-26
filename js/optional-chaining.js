@@ -42,3 +42,10 @@ if (resturant.openingHours && resturant.openingHours.fri)
   console.log('Fri:', resturant.openingHours.fri.open);
 
 console.log();
+
+// Call day and time if openingHours exist and that particular day exists
+console.log('Mon:', resturant.openingHours?.mon?.open); // returns undefined
+console.log();
+
+console.log('Fri:', resturant.openingHours?.fri?.open);
+console.log();
