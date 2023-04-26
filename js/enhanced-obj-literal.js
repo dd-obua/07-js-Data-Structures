@@ -8,7 +8,6 @@ const days = [
   'friday',
   'saturday',
   'sunday',
-  'sunday',
 ];
 
 // Compute property names
