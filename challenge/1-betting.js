@@ -70,7 +70,14 @@ console.log("Bayern's final list:", players1Final);
 console.log();
 
 // Task 5: Store odds in seperate varaibles
-const { team1, x: draw, team2 } = game.odds;
+// Method 1
+// const { team1, x: draw, team2 } = game.odds;
+
+// Method 2
+const {
+  odds: { team1, x: draw, team2 },
+} = game;
+
 console.log('Team 1:', team1);
 console.log('Draw:', draw);
 console.log('Team 2:', team2);
