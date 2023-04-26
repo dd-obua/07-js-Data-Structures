@@ -25,3 +25,7 @@ const resturant = {
 console.log();
 
 const menu = [...resturant.starterMenu, ...resturant.mainMenu];
+
+for (const item of menu) console.log(item);
+
+console.log();
