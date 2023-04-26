@@ -1,3 +1,5 @@
+const { log } = require('console');
+
 // Given
 const resturant = {
   name: 'Classico Italiano',
@@ -27,5 +29,10 @@ console.log();
 const menu = [...resturant.starterMenu, ...resturant.mainMenu];
 
 for (const item of menu) console.log(item);
+
+console.log();
+
+// Capture item indices
+for (const item of menu.entries()) console.log(item);
 
 console.log();
