@@ -69,4 +69,11 @@ const players1Final = ['Thiago', 'Coutinho', 'Perisic', ...players1];
 console.log("Bayern's final list:", players1Final);
 
 console.log();
-  
+
+// Task 5: Store odds in seperate varaibles
+const { team1, x: draw, team2 } = game.odds;
+console.log('Team 1:', team1);
+console.log('Draw:', draw);
+console.log('Team 2:', team2);
+
+console.log();
