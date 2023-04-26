@@ -58,3 +58,8 @@ console.log();
 for (const entry of entries) console.log('Entry:', entry);
 
 console.log();
+
+for (const [key, value] of entries)
+  console.log(
+    `On ${key} we open at ${value.open} and close at ${value.close}.`
+  );
