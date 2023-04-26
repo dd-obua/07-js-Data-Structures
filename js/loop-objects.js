@@ -67,7 +67,7 @@ for (const [key, value] of entries)
 console.log();
 
 // Manipulate properties of value using destructuring
-for (const [key, { open, close }] of entries)
-  console.log(`On ${key}, we open at ${open} and close at ${close}.`);
+for (const [day, { open, close }] of entries)
+  console.log(`On ${day}, we open at ${open} and close at ${close}.`);
 
 console.log();
