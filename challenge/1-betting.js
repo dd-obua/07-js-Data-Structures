@@ -50,3 +50,10 @@ console.log();
 console.log('Borrussia Dortmund:', players2);
 
 console.log();
+
+// Task 2: Seperate goal keeper from field players
+const [gk, ...fieldPlayers] = players1;
+console.log('Goal keeper:', gk);
+console.log('Field players:', fieldPlayers);
+
+console.log();
