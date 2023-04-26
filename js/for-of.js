@@ -33,6 +33,6 @@ for (const item of menu) console.log(item);
 console.log();
 
 // Capture item indices
-for (const item of menu.entries()) console.log(item);
+for (const item of menu.entries()) console.log(`${item[0] + 1}: ${item[1]}`);
 
 console.log();
