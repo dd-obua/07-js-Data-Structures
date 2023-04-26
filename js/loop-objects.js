@@ -28,6 +28,7 @@ const openingHours = {
 
 console.log();
 
+// Manipulate property names
 const properies = Object.keys(openingHours);
 console.log(properies);
 console.log();
@@ -36,5 +37,11 @@ let openStr = `We are open on ${properies.length} days, `;
 
 for (const day of properies) openStr += `${day}, `;
 console.log(openStr);
+
+console.log();
+
+// Manipulate property values
+const values = Object.values(openingHours);
+console.log(values);
 
 console.log();
