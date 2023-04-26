@@ -77,3 +77,11 @@ console.log('Draw:', draw);
 console.log('Team 2:', team2);
 
 console.log();
+
+// Task 5: Create printGoals function
+const printGoals = function (...players) {
+  console.log('Players:', ...players);
+  console.log('Goals (total):', players.length);
+};
+
+printGoals('Pavard', 'Martinez', 'Alaba', 'Davies');
