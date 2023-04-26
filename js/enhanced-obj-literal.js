@@ -25,10 +25,19 @@ const resturant = {
   order(starterIndex, mainIndex) {
     return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
   },
+
+  orderDelivery({ starterIndex = 1, mainIndex = 0, time = '20:00', address }) {
+    return `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address} at ${time}.`;
+  },
 };
 
 console.log();
 
 console.log('Resturant:', resturant);
+console.log();
 
+console.log(
+  'Order feedback:',
+  resturant.orderDelivery({ address: 'Plot 89, Lower Churchil Drive' })
+);
 console.log();
