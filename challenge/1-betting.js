@@ -94,7 +94,7 @@ printGoals('Pavard', 'Martinez', 'Alaba', 'Davies');
 
 console.log();
 
-printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
+printGoals(...game.scored);
 console.log();
 
 // Task 7: Print likely winner
