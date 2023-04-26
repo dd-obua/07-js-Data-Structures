@@ -68,3 +68,8 @@ for (const day of days) {
 }
 
 console.log();
+
+// Call a method if it exist. Warn otherwise
+console.log(resturant.order?.(1, 2) ?? 'Method does not exist.');
+
+console.log();
