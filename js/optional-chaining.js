@@ -61,9 +61,10 @@ console.log();
 console.log('Fri:', resturant.openingHours?.fri?.open);
 console.log();
 
+// Log opening time for opening days
 for (const day of days) {
-  const open = resturant.openingHours[day]?.open ?? 'closed';
-  console.log(`On ${day}s, we open at ${open}`);
+  const open = resturant.openingHours[day]?.open ?? 'close';
+  console.log(`On ${day}, we open at ${open}.`);
 }
 
 console.log();
