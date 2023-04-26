@@ -45,8 +45,8 @@ console.log();
 const players1 = game.players[0];
 const players2 = game.players[1];
 
-console.log('Team 1:', players1);
+console.log('Bayern Munich:', players1);
 console.log();
-console.log('Team 2:', players2);
+console.log('Borrussia Dortmund:', players2);
 
 console.log();
