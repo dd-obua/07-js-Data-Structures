@@ -21,6 +21,10 @@ const resturant = {
   starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
   mainMenu: ['Pizza', 'Pasta', 'Risotto'],
   openingHours,
+
+  order(starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
 };
 
 console.log();
@@ -28,4 +32,3 @@ console.log();
 console.log('Resturant:', resturant);
 
 console.log();
-
