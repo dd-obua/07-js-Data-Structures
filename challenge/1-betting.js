@@ -30,7 +30,7 @@ const game = {
     ],
   ],
   score: '4:0',
-  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+  scored: ['Davies', 'Muller', 'Lewandowski', 'Kimmich'],
   date: 'Nov 9th, 2037',
   odds: {
     team1: 1.33,
@@ -86,6 +86,9 @@ const printGoals = function (...players) {
 
 printGoals('Pavard', 'Martinez', 'Alaba', 'Davies');
 
+console.log();
+
+printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
 console.log();
 
 // Task 7: Print likely winner
