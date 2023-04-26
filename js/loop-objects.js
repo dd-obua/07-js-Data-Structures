@@ -1,5 +1,8 @@
 // Loop over propety names / keys
 
+const { log } = require('console');
+const { loadavg } = require('os');
+
 // Given
 const days = [
   'monday',
@@ -43,5 +46,15 @@ console.log();
 // Manipulate property values
 const values = Object.values(openingHours);
 console.log(values);
+
+console.log();
+
+// Manipulate both properties and values of an array
+const entries = Object.entries(openingHours);
+console.log('Entires:', entries);
+
+console.log();
+
+for (const entry of entries) console.log('Entry:', entry);
 
 console.log();
