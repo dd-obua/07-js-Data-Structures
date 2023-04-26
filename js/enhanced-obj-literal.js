@@ -1,14 +1,27 @@
 // Given
+
+const days = [
+  'monday',
+  'tuesday',
+  'wednesday',
+  'thursday',
+  'friday',
+  'saturday',
+  'sunday',
+  'sunday',
+];
+
+// Compute property names
 const openingHours = {
-  thu: {
+  [days[3]]: {
     open: 12,
     close: 22,
   },
-  fri: {
+  [days[4]]: {
     open: 11,
     close: 23,
   },
-  sat: {
+  [days[5]]: {
     open: 0, // Open 24 hours
     close: 24,
   },
