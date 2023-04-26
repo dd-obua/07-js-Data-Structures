@@ -98,6 +98,6 @@ printGoals(...game.scored);
 console.log();
 
 // Task 7: Print likely winner
-console.log(`${game.team1 || game.team2} is more likely to win.`);
-
+team1 < team2 && console.log('Team 1 is more likely to win.');
+team2 < team1 && console.log('Team 2 is more likely to win.');
 console.log();
