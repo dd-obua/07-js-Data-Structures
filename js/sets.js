@@ -53,3 +53,8 @@ const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 const uniquePositions = new Set(staff);
 console.log('Unique positions:', uniquePositions);
 console.log();
+
+const postionsArray = [...uniquePositions];
+console.log('Unique positions array:', postionsArray);
+console.log();
+
