@@ -123,8 +123,9 @@ console.log('Average odds:', averageOdds.toFixed(2));
 console.log();
 
 // Print odds
-console.log(`Odd of victory ${game.team1}: ${team1}
-Odd of draw: ${draw}
-Odd of victory ${game.team2}: ${team2}`);
+for (const [team, odd] of Object.entries(game.odds)) {
+  const teamStr = team === 'x' ? `draw` : `victory ${game[team]}`;
+  console.log(`Odd of ${teamStr}: ${odd}`);
+}
 
 console.log();
