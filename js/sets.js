@@ -41,3 +41,10 @@ console.log('Test set:', testSet);
 testSet.clear();
 console.log('Test set:', testSet);
 console.log();
+
+// Loop through a set
+for (const order of ordersSet) console.log(order);
+
+console.log();
+
+
