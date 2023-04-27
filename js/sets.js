@@ -21,3 +21,7 @@ console.log();
 console.log('Set 2:', ordersSet);
 console.log('Set size:', ordersSet.size);
 console.log();
+
+console.log('Has pizza?', ordersSet.has('Pizza'));
+console.log('Has bread?', ordersSet.has('Bread'));
+console.log();
