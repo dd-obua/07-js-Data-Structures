@@ -113,10 +113,11 @@ console.log();
 
 // Compute and print averge odds
 let totalOdds = 0;
+const odds = Object.values(game.odds);
 
-for (const odd of Object.values(game.odds)) totalOdds += odd;
+for (const odd of odds) totalOdds += odd;
 
-const averageOdds = totalOdds / Object.values(game.odds).length;
+const averageOdds = totalOdds / odds.length;
 console.log('Average odds:', averageOdds.toFixed(2));
 
 console.log();
