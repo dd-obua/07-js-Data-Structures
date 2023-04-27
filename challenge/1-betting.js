@@ -85,10 +85,8 @@ console.log('Team 2:', team2);
 console.log();
 
 // Task 6: Create printGoals function
-const printGoals = function (...players) {
-  console.log('Players:', ...players);
-  console.log('Goals (total):', players.length);
-};
+const printGoals = (...players) =>
+  console.log(`${players} scored ${players.length} goals in total.`);
 
 printGoals('Pavard', 'Martinez', 'Alaba', 'Davies');
 
