@@ -44,9 +44,9 @@ console.log();
 // Task 1: Group players by teams
 const [players1, players2] = game.players;
 
-console.log('Bayern Munich:', players1);
+console.log(`${game.team1}: ${players1}`);
 console.log();
-console.log('Borrussia Dortmund:', players2);
+console.log(`${game.team2}: ${players2}`);
 
 console.log();
 
