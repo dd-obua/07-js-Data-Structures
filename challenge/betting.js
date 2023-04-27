@@ -129,3 +129,14 @@ for (const [team, odd] of Object.entries(game.odds)) {
 }
 
 console.log();
+
+// Create scorers object
+
+const scorers = {};
+
+for (const scorer of game.scored) {
+  scorers[scorer] ? scorers[scorer]++ : (scorers[scorer] = 1);
+}
+console.log(scorers);
+
+console.log();
