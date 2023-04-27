@@ -1,5 +1,7 @@
 'use strict';
 
+const { kStringMaxLength } = require('buffer');
+
 const ordersSet = new Set([
   'Pasta',
   'Pizza',
@@ -60,4 +62,9 @@ console.log();
 
 const numPositions = uniquePositions.size;
 console.log('Positions:', numPositions);
+console.log();
+
+// Number of uniqe letters in a string
+const uniqueLetters = new Set('Obua Denis Daniel').size;
+console.log('Unique letters:', uniqueLetters);
 console.log();
