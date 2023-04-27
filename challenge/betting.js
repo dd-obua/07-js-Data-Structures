@@ -109,3 +109,13 @@ for (const [index, value] of game.scored.entries())
   console.log(`Goal ${index + 1}: ${value}.`);
 
 console.log();
+
+// Compute and print averge odds
+let totalOdds = 0;
+
+for (const [key, value] of Object.entries(game.odds)) totalOdds += value;
+
+const averageOdds = totalOdds / Object.values(game.odds).length;
+console.log('Average odds:', averageOdds.toFixed(2));
+
+console.log();
