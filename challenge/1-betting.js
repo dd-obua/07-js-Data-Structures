@@ -1,3 +1,6 @@
+'use strict';
+
+// Challenge I
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
