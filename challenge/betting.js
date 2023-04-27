@@ -106,6 +106,6 @@ console.log();
 // Challenge 2
 // For players who scored goals, print player name and goal number
 for (const [index, value] of game.scored.entries())
-  console.log(`Goal ${index + 1}: ${value} `);
+  console.log(`Goal ${index + 1}: ${value}.`);
 
 console.log();
