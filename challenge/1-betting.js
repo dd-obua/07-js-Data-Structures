@@ -65,7 +65,7 @@ console.log();
 
 // Task 4: Include substitutes to Bayern Munich team
 const players1Final = [...players1, 'Thiago', 'Coutinho', 'Perisic'];
-console.log("Bayern's final list:", players1Final);
+console.log(`${game.team1}'s overall list: ${players1Final}`);
 
 console.log();
 
