@@ -30,3 +30,10 @@ ordersSet.add('Bread');
 console.log('Current set:', ordersSet);
 console.log('Current size:', ordersSet.size);
 console.log();
+
+ordersSet.delete('Risotto');
+console.log('New set:', ordersSet);
+console.log('New size:', ordersSet.size);
+console.log();
+
+  
