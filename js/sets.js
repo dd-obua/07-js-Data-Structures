@@ -16,4 +16,8 @@ console.log();
 
 console.log('Set:', new Set('Denis'));
 console.log('Set size:', new Set('Denis').size);
+console.log();
 
+console.log('Set 2:', ordersSet);
+console.log('Set size:', ordersSet.size);
+console.log();
