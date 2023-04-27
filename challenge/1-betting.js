@@ -59,7 +59,7 @@ console.log();
 
 // Task 3: Combine players from both teams
 const allPlayers = [...players1, ...players2];
-console.log('Combined players:', allPlayers);
+console.log('All players:', allPlayers);
 
 console.log();
 
