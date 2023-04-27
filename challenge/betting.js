@@ -102,3 +102,10 @@ console.log();
 team1 < team2 && console.log('Team 1 is more likely to win.');
 team2 < team1 && console.log('Team 2 is more likely to win.');
 console.log();
+
+// Challenge 2
+// For players who scored goals, print player name and goal number
+for (const [index, value] of game.scored.entries())
+  console.log(`Goal ${index + 1}: ${value} `);
+
+console.log();
