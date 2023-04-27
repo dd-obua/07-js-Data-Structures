@@ -73,3 +73,9 @@ console.log();
 console.log(resturant.order?.(1, 2) ?? 'Method does not exist.');
 
 console.log();
+
+//
+const users = [{ name: 'Dan', email: 'dan@gmail.com' }];
+console.log('Current user:', users[0]?.name ?? 'No user exists.');
+
+console.log();
