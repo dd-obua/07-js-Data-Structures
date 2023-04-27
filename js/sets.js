@@ -47,4 +47,9 @@ for (const order of ordersSet) console.log(order);
 
 console.log();
 
+// Given
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
 
+const uniquePositions = new Set(staff);
+console.log('Unique positions:', uniquePositions);
+console.log();
