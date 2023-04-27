@@ -114,7 +114,7 @@ console.log();
 // Compute and print averge odds
 let totalOdds = 0;
 
-for (const [key, value] of Object.entries(game.odds)) totalOdds += value;
+for (const odd of Object.values(game.odds)) totalOdds += odd;
 
 const averageOdds = totalOdds / Object.values(game.odds).length;
 console.log('Average odds:', averageOdds.toFixed(2));
