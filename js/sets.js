@@ -58,3 +58,6 @@ const postionsArray = [...uniquePositions];
 console.log('Unique positions array:', postionsArray);
 console.log();
 
+const numPositions = uniquePositions.size;
+console.log('Positions:', numPositions);
+console.log();
