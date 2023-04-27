@@ -119,3 +119,10 @@ const averageOdds = totalOdds / Object.values(game.odds).length;
 console.log('Average odds:', averageOdds.toFixed(2));
 
 console.log();
+
+// Print odds
+console.log(`Odd of victory ${game.team1}: ${team1}
+Odd of draw: ${draw}
+Odd of victory ${game.team2}: ${team2}`);
+
+console.log();
