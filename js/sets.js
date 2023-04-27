@@ -36,4 +36,8 @@ console.log('New set:', ordersSet);
 console.log('New size:', ordersSet.size);
 console.log();
 
-  
+const testSet = new Set(['Obua', 'Denis', 'Daniel']);
+console.log('Test set:', testSet);
+testSet.clear();
+console.log('Test set:', testSet);
+console.log();
