@@ -139,3 +139,26 @@ for (const scorer of game.scored) {
 console.log(scorers);
 
 console.log();
+
+// Challenge 3
+// Given
+const gameEvents = new Map([
+  [17, '⚽ GOAL'],
+  [36, '🔁 Substitution'],
+  [47, '⚽ GOAL'],
+  [61, '🔁 Substitution'],
+  [64, '🔶 Yellow card'],
+  [69, '🔴 Red card'],
+  [70, '🔁 Substitution'],
+  [72, '🔁 Substitution'],
+  [76, '⚽ GOAL'],
+  [80, '⚽ GOAL'],
+  [92, '🔶 Yellow card'],
+]);
+
+// Part 1
+// Create events array
+// Step 1- Extract values
+const events = [...new Set(gameEvents.values())];
+console.log(events);
+console.log();
