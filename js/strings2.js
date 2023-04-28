@@ -33,3 +33,12 @@ const normalizedEmail = loginEmail.trim().toLowerCase();
 console.log(normalizedEmail);
 console.log('Email works? ', loginEmail === normalizedEmail);
 console.log();
+
+const isNormalizable = function (email1, email2) {
+  const normalizedEmail1 = email1.trim().toLowerCase();
+  const normalizedEmail2 = email2.trim().toLowerCase();
+  return normalizedEmail1 === normalizedEmail2;
+};
+console.log(isNormalizable('dan.io', ' DAN.IO '));
+console.log(isNormalizable('denis.io', 'DENIS . IO'));
+console.log();
