@@ -158,7 +158,6 @@ const gameEvents = new Map([
 
 // Part 1
 // Create events array
-// Step 1- Extract values
 const events = [...new Set(gameEvents.values())];
 console.log(events);
 console.log();
