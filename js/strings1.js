@@ -13,7 +13,7 @@ console.log();
 console.log('Position 0:', plane[0]);
 console.log('Position 1:', plane[1]);
 console.log('Position 2:', plane[2]);
-console.log('B737'[3]);
+console.log('B737 at position 3:', 'B737'[3]);
 console.log();
 
 // Read length properties
