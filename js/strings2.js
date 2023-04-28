@@ -42,3 +42,8 @@ const isNormalizable = function (email1, email2) {
 console.log(isNormalizable('dan.io', ' DAN.IO '));
 console.log(isNormalizable('denis.io', 'DENIS . IO'));
 console.log();
+
+// Replace parts of a string
+const priceGB = '288,97£';
+const priceUS = priceGB.replace(',', '.').replace('£', '$');
+console.log(priceUS);
