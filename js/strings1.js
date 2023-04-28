@@ -28,3 +28,8 @@ console.log('Last index of r:', airline.lastIndexOf('r'));
 console.log('Index of Portugal:', airline.indexOf('Portugal'));
 console.log('Index of portugal (does not exist):', airline.indexOf('portugal'));
 console.log();
+
+// Extract parts of a string
+console.log('A slice from index 4:', airline.slice(4));
+console.log('A slice from index 4 to before 7:', airline.slice(4, 7));
+console.log();
