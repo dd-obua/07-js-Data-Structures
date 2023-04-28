@@ -47,3 +47,13 @@ console.log();
 const priceGB = '288,97£';
 const priceUS = priceGB.replace(',', '.').replace('£', '$');
 console.log(priceUS);
+console.log();
+
+const announcement =
+  'All passengers come to boarding door 23. Boarding door 23!';
+console.log('Annoncement:', announcement);
+console.log();
+
+const correctAnnouncement = announcement.replace('door', 'gate');
+console.log('Correct annoucement:', correctAnnouncement);
+console.log();
