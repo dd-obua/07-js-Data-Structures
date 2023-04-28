@@ -156,8 +156,18 @@ const gameEvents = new Map([
   [92, '🔶 Yellow card'],
 ]);
 
-// Part 1
-// Create events array
+// Part 1 - Create events array
 const events = [...new Set(gameEvents.values())];
 console.log(events);
+console.log();
+
+// Part 2 - Remove event at minute 64
+gameEvents.delete(64);
+console.log(gameEvents);
+console.log();
+
+// Part 3 - Create events log message
+console.log(
+  `An event happened, on average, every ${90 / gameEvents.size} minutes.`
+);
 console.log();
