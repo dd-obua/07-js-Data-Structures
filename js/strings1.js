@@ -45,3 +45,17 @@ console.log();
 console.log('Last letters:', airline.slice(-3));
 console.log('Begin after 0, end before end:', airline.slice(1, -1));
 console.log();
+
+// Determine whether it's a middle seat
+// If B or E are the last characters, then it's a middle seats
+const checkMiddleSeat = function (seat) {
+  const lastChar = seat.slice(-1);
+  if (lastChar === 'B' || lastChar === 'E')
+    console.log('You got a middle seat.');
+  else console.log('You got lucky!');
+};
+
+checkMiddleSeat('11B');
+checkMiddleSeat('23C');
+checkMiddleSeat('3E');
+console.log();
