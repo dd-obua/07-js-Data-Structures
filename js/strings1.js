@@ -20,3 +20,11 @@ console.log();
 console.log(`${airline}: ${airline.length} characters.`);
 console.log(`A320: ${'A320'.length} characters.`);
 console.log();
+
+// String methods
+// Get index of characters
+console.log('Index of r:', airline.indexOf('r'));
+console.log('Last index of r:', airline.lastIndexOf('r'));
+console.log('Index of Portugal:', airline.indexOf('Portugal'));
+console.log('Index of portugal (does not exist):', airline.indexOf('portugal'));
+console.log();
