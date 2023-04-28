@@ -5,6 +5,10 @@ console.log();
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
 
+console.log('Airline:', airline);
+console.log('Plane:', plane);
+console.log();
+
 // Get character at a given position
 console.log('Position 0:', plane[0]);
 console.log('Position 1:', plane[1]);
