@@ -35,4 +35,6 @@ console.log('A slice from index 4 to before 7:', airline.slice(4, 7));
 console.log();
 // Extract the first word from airplane
 console.log('First word:', airline.slice(0, airline.indexOf(' ')));
+// Extract the last word form airplane
+console.log('Last word:', airline.slice(airline.lastIndexOf(' ') + 1));
 console.log();
