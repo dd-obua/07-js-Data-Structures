@@ -24,3 +24,12 @@ function toSentenceCase(word) {
 
 console.log(toSentenceCase(passenger));
 console.log();
+
+// Compare emails
+const trueEmail = 'hello@dan.io';
+const loginEmail = ' Hello@Dan.io\n';
+
+const normalizedEmail = loginEmail.trim().toLowerCase();
+console.log(normalizedEmail);
+console.log('Email works? ', loginEmail === normalizedEmail);
+console.log();
