@@ -57,3 +57,7 @@ console.log();
 const correctAnnouncement = announcement.replace('door', 'gate');
 console.log('Correct annoucement:', correctAnnouncement);
 console.log();
+
+const mostCorrectAnnouncement = announcement.replace(/door/g, 'gate');
+console.log('Most correct announcement:', mostCorrectAnnouncement);
+console.log();
