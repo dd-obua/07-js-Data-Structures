@@ -43,4 +43,5 @@ console.log();
 
 // Extract from the end
 console.log('Last letters:', airline.slice(-3));
+console.log('Begin after 0, end before end:', airline.slice(1, -1));
 console.log();
