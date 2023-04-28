@@ -33,3 +33,6 @@ console.log();
 console.log('A slice from index 4:', airline.slice(4));
 console.log('A slice from index 4 to before 7:', airline.slice(4, 7));
 console.log();
+// Extract the first word from airplane
+console.log('First word:', airline.slice(0, airline.indexOf(' ')));
+console.log();
