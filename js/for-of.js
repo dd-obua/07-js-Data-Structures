@@ -1,4 +1,4 @@
-const { log } = require('console');
+'use strict';
 
 // Given
 const resturant = {
