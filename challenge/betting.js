@@ -171,3 +171,18 @@ console.log(
   `An event happened, on average, every ${90 / gameEvents.size} minutes.`
 );
 console.log();
+
+// Part 3 Bonas(using 92 minutes)
+const time = [...gameEvents.keys()].pop();
+console.log(
+  `An event happened, on average, every ${time / gameEvents.size} minutes.`
+);
+console.log();
+
+// Part 4
+for (const [min, event] of gameEvents) {
+  const half = min <= 45 ? 'FIRST' : 'SECOND';
+  console.log(`[${half} HALF] ${min}: ${event}`);
+  console.log();
+}
+console.log();
