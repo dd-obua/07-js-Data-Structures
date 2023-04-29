@@ -67,3 +67,7 @@ const includesStr2 = plane.includes('Boeing');
 console.log('Includes A32O:', includesStr1);
 console.log('Includes Boeing:', includesStr2);
 console.log();
+
+const startStr = plane.startsWith('Air');
+console.log(`${plane} starts with Air:`, startStr);
+console.log();
