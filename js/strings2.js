@@ -155,3 +155,8 @@ console.log(maskCreditCard(12345678));
 console.log(maskCreditCard('459023480987'));
 console.log(maskCreditCard(5610147965092583));
 console.log();
+
+// Repeat string
+const message = 'Bad weather... All depatures delayed... ';
+console.log(message.repeat(7));
+console.log();
