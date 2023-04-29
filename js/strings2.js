@@ -106,3 +106,11 @@ const eachName = fullName.split(' ');
 console.log('Full name:', fullName);
 console.log('Each name:', eachName);
 console.log();
+
+const completeName = 'Ojok Simon Peter';
+const [surname, lastName, thirdName] = completeName.split(' ');
+console.log('Complete name:', completeName);
+console.log('Surname name:', surname);
+console.log('Last name:', lastName);
+console.log('Third names:', thirdName);
+console.log();
