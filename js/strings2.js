@@ -133,3 +133,13 @@ console.log(capitalizeName('obua denis daniel'));
 console.log(capitalizeName('ojok simon peter'));
 console.log(capitalizeName('ayo denis oki'));
 console.log();
+
+// Padding strings
+let msg = 'Go to gate 23!';
+console.log('Msg:', msg);
+msg = msg.padStart(30, '+');
+console.log('Start padding:', msg);
+console.log('End padding:', 'Go to gate 23!'.padEnd(35, '+'));
+msg = msg.padEnd(45, '+');
+console.log('Start and end padding:', msg);
+console.log();
