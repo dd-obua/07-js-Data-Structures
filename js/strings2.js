@@ -1,7 +1,5 @@
 'use strict';
 
-const { maxHeaderSize } = require('http');
-
 console.log();
 
 const airline = 'TAP Air Portugal';
@@ -121,4 +119,17 @@ const [sName, fName] = str3.split(' ');
 const newName = ['Mr.', sName.toUpperCase(), fName].join(' ');
 console.log('Full name:', str3);
 console.log('New name:', newName);
+console.log();
+
+// Capitalize string
+const capitalizeName = function (name) {
+  const names = name.split(' ');
+  const result = [];
+  names.forEach(nm => result.push(nm.charAt(0).toUpperCase() + nm.slice(1)));
+  return result.join(' ');
+};
+
+console.log(capitalizeName('obua denis daniel'));
+console.log(capitalizeName('ojok simon peter'));
+console.log(capitalizeName('ayo denis oki'));
 console.log();
