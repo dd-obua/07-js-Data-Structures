@@ -160,3 +160,12 @@ console.log();
 const message = 'Bad weather... All depatures delayed... ';
 console.log(message.repeat(7));
 console.log();
+
+const planesInLine = function (n) {
+  console.log(`There are ${n} planes in line. ${' 🛩️ '.repeat(n)}`);
+};
+
+planesInLine(3);
+planesInLine(5);
+planesInLine(12);
+console.log();
