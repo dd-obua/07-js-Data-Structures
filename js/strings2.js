@@ -125,7 +125,9 @@ console.log();
 const capitalizeName = function (name) {
   const names = name.split(' ');
   const result = [];
-  names.forEach(nm => result.push(nm.charAt(0).toUpperCase() + nm.slice(1)));
+  names.forEach(nm =>
+    result.push(nm.replace(nm.charAt(0), nm.charAt(0).toUpperCase()))
+  );
   return result.join(' ');
 };
 
