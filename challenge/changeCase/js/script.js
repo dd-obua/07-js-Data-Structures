@@ -17,5 +17,6 @@ btn.addEventListener('click', function () {
 
   for (const [index, variable] of variables.entries()) {
     const [part1, part2] = variable.trim().toLowerCase().split('_');
+    const output = `${part1}${part2[0].toUpperCase() + part2.slice(1)} `;
   }
 });
