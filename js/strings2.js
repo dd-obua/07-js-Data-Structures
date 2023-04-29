@@ -143,3 +143,15 @@ console.log('End padding:', 'Go to gate 23!'.padEnd(35, '+'));
 msg = msg.padEnd(45, '+');
 console.log('Start and end padding:', msg);
 console.log();
+
+// Mask credit card number
+const maskCreditCard = function (num) {
+  const str = num + '';
+  const last4 = str.slice(-4);
+  return last4.padStart(str.length, '*');
+};
+
+console.log(maskCreditCard(12345678));
+console.log(maskCreditCard('459023480987'));
+console.log(maskCreditCard(5610147965092583));
+console.log();
