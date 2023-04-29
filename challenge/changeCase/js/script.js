@@ -8,3 +8,5 @@ textArea.style.width = '500px';
 textArea.style.height = '200px';
 textArea.style.display = 'block';
 textArea.style.marginBottom = '12px';
+btn.style.cursor = 'pointer';
+btn.innerText = 'Execute';
