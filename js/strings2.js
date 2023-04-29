@@ -34,11 +34,11 @@ console.log(normalizedEmail);
 console.log('Email works? ', loginEmail === normalizedEmail);
 console.log();
 
-const isNormalizable = function (email1, email2) {
+const canWork = function (email1, email2) {
   return email1.trim().toLowerCase() === email2.trim().toLowerCase();
 };
-console.log(isNormalizable('dan.io', ' DAN.IO '));
-console.log(isNormalizable('denis.io', 'DENIS . IO'));
+console.log(canWork('dan.io', ' DAN.IO '));
+console.log(canWork('denis.io', 'DENIS . IO'));
 console.log();
 
 // Replace parts of a string
