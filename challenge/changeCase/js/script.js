@@ -13,4 +13,5 @@ btn.innerText = 'Execute';
 
 btn.addEventListener('click', function () {
   const text = textArea.value;
+  const variables = text.split('\n');
 });
