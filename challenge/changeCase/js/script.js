@@ -11,4 +11,6 @@ textArea.style.marginBottom = '12px';
 btn.style.cursor = 'pointer';
 btn.innerText = 'Execute';
 
-btn.addEventListener('click', function () {});
+btn.addEventListener('click', function () {
+  const text = textArea.value;
+});
