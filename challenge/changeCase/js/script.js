@@ -10,3 +10,5 @@ textArea.style.display = 'block';
 textArea.style.marginBottom = '12px';
 btn.style.cursor = 'pointer';
 btn.innerText = 'Execute';
+
+btn.addEventListener('click', function () {});
