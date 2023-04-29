@@ -71,3 +71,6 @@ console.log();
 const startStr = plane.startsWith('Air');
 console.log(`${plane} starts with Air:`, startStr);
 console.log();
+
+if (plane.startsWith('Airbus') && plane.endsWith('neo'))
+  console.log('Part of the NEW Airbus family.');
