@@ -1,5 +1,7 @@
 'use strict';
 
+const { maxHeaderSize } = require('http');
+
 console.log();
 
 const airline = 'TAP Air Portugal';
@@ -90,4 +92,17 @@ const stmt3 = 'Got some snaks and a gun for protection.';
 checkBaggage(stmt1);
 checkBaggage(stmt2);
 checkBaggage(stmt3);
+console.log();
+
+// Split strings
+const str1 = 'a+very+nice+string';
+const str2 = str1.split('+');
+console.log('Original string:', str1);
+console.log('Result of spliting:', str2);
+console.log();
+
+const fullName = 'Obua Denis Daniel';
+const eachName = fullName.split(' ');
+console.log('Full name:', fullName);
+console.log('Each name:', eachName);
 console.log();
