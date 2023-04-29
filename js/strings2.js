@@ -35,9 +35,7 @@ console.log('Email works? ', loginEmail === normalizedEmail);
 console.log();
 
 const isNormalizable = function (email1, email2) {
-  const normalizedEmail1 = email1.trim().toLowerCase();
-  const normalizedEmail2 = email2.trim().toLowerCase();
-  return normalizedEmail1 === normalizedEmail2;
+  return email1.trim().toLowerCase() === email2.trim().toLowerCase();
 };
 console.log(isNormalizable('dan.io', ' DAN.IO '));
 console.log(isNormalizable('denis.io', 'DENIS . IO'));
