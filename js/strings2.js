@@ -59,3 +59,11 @@ console.log();
 const mostCorrectAnnouncement = announcement.replace(/door/g, 'gate');
 console.log('Most correct announcement:', mostCorrectAnnouncement);
 console.log();
+
+// Booleans (includes(), startsWith(), endsWith())
+const plane = 'Airbus A320neo';
+const includesStr1 = plane.includes('A320');
+const includesStr2 = plane.includes('Boeing');
+console.log('Includes A32O:', includesStr1);
+console.log('Includes Boeing:', includesStr2);
+console.log();
