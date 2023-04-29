@@ -114,3 +114,11 @@ console.log('Surname name:', surname);
 console.log('Last name:', lastName);
 console.log('Third names:', thirdName);
 console.log();
+
+// Implement join method
+const str3 = 'Okello John';
+const [sName, fName] = str3.split(' ');
+const newName = ['Mr.', sName.toUpperCase(), fName].join(' ');
+console.log('Full name:', str3);
+console.log('New name:', newName);
+console.log();
