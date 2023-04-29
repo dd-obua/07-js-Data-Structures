@@ -74,3 +74,20 @@ console.log();
 
 if (plane.startsWith('Airbus') && plane.endsWith('neo'))
   console.log('Part of the NEW Airbus family.');
+console.log();
+
+const checkBaggage = function (items) {
+  const baggage = items.toLowerCase();
+  if (baggage.includes('gun') || baggage.includes('knife'))
+    console.log('You are NOT allowed on board.');
+  else console.log('Welcome aboard!');
+};
+
+const stmt1 = 'I have a laptop, some Food and a pocket knife.';
+const stmt2 = 'Socks and camera.';
+const stmt3 = 'Got some snaks and a gun for protection.';
+
+checkBaggage(stmt1);
+checkBaggage(stmt2);
+checkBaggage(stmt3);
+console.log();
