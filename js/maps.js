@@ -54,3 +54,9 @@ resturantMap
   .set(false, 'We are closed');
 console.log('Current map:', resturantMap);
 console.log();
+
+// Get data from a map
+resturantMap.get('name');
+console.log(resturantMap.get('name'));
+console.log(resturantMap.get(true));
+console.log();
