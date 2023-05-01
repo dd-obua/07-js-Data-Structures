@@ -1,7 +1,5 @@
 'use strict';
 
-const { kStringMaxLength } = require('buffer');
-
 const ordersSet = new Set([
   'Pasta',
   'Pizza',
