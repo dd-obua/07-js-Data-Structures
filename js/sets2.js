@@ -1,5 +1,6 @@
 'use strict';
 console.log();
+
 const str = 'obua denis daniel';
 console.log('String:', str);
 const strSet = new Set(str);
