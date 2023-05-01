@@ -12,7 +12,7 @@ const days = [
   'sunday',
 ];
 
-const restaurant = {
+const resturant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
   categories: ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'],
