@@ -60,3 +60,13 @@ resturantMap.get('name');
 console.log(resturantMap.get('name'));
 console.log(resturantMap.get(true));
 console.log();
+
+const currentTime = new Date().getHours();
+console.log(currentTime);
+console.log(
+  resturantMap.get(
+    currentTime > resturantMap.get('open') ||
+      currentTime < resturantMap.get('close')
+  )
+);
+console.log();
