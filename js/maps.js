@@ -73,4 +73,6 @@ console.log();
 
 // Use map properties
 console.log(resturantMap.has('categories'));
+console.log(`${resturantMap.get(2)} deleted? ${resturantMap.delete(2)}`);
+console.log(resturantMap);
 console.log();
