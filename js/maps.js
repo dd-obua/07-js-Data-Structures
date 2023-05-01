@@ -70,3 +70,7 @@ console.log(
   )
 );
 console.log();
+
+// Use map properties
+console.log(resturantMap.has('categories'));
+console.log();
