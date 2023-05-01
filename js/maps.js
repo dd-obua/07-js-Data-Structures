@@ -44,3 +44,13 @@ resturantMap.set('name', 'Classico Italiano');
 resturantMap.set(1, 'Firenz, Itally');
 console.log(resturantMap.set(2, 'Lisbon, Portugal')); // (Call set method returns the map)
 console.log();
+
+// Chain set methods
+resturantMap
+  .set('categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
+  .set('open', 11)
+  .set('close', 23)
+  .set(true, 'We are open')
+  .set(false, 'We are closed');
+console.log('Current map:', resturantMap);
+console.log();
